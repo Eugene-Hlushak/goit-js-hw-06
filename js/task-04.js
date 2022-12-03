@@ -12,7 +12,6 @@ const decrementValue = () => {
 const incrementValue = () => {
   counterValue += 1;
   displayValue.textContent = counterValue;
-  console.log(counterValue);
 };
 
 btnDecrement.addEventListener("click", decrementValue);
